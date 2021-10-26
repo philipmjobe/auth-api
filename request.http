@@ -1,3 +1,9 @@
+### USERS SHOW
+GET http://localhost:3000/users/2.json 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzUzNzE2MzN9.ariP6TjGJQWcKQDh3qfx5u8FU8Jwp1_IQbbyvAgfBQU
+Content-Type: application/json
+
+
 ### Users create (signup)
 POST http://localhost:3000/users
 Content-Type: application/json

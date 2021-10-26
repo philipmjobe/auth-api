@@ -1,4 +1,11 @@
 class UsersController < ApplicationController
+  
+  def show 
+    user_id = params[:id]
+    current_user = User.find_by(id: user_id)
+    render json: current_user
+  end 
+  
   def create
     user = User.new(
       name: params[:name],
